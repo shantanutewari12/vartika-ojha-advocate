@@ -36,7 +36,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.6, delay: 0.5, ease: [0.2, 0.7, 0.2, 1] }}
-          className="mt-6 font-display text-6xl font-light leading-[0.95] text-ivory md:text-[8rem] lg:text-[10rem]"
+          className="mt-6 font-display text-[3.25rem] font-light leading-[0.95] text-ivory sm:text-7xl md:text-[8rem] lg:text-[10rem]"
         >
           <span className="shimmer-gold">Vartika</span>
           <br />
@@ -54,7 +54,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 1.4 }}
-          className="font-display text-xl tracking-[0.3em] text-muted-foreground md:text-2xl"
+          className="px-4 text-center font-display text-sm tracking-[0.25em] text-muted-foreground sm:text-xl sm:tracking-[0.3em] md:text-2xl"
         >
           ADVOCATE &nbsp;·&nbsp; LEGAL CONSULTANT
         </motion.p>
@@ -63,19 +63,19 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1.8 }}
-          className="mt-14 flex flex-col items-center gap-4 sm:flex-row"
+          className="mt-12 flex w-full max-w-md flex-col items-stretch gap-3 px-4 sm:mt-14 sm:w-auto sm:max-w-none sm:flex-row sm:items-center sm:gap-4 sm:px-0"
         >
           <a
-            href="#experience"
-            className="group relative inline-flex items-center justify-center overflow-hidden rounded-sm bg-gold px-8 py-4 font-display text-sm uppercase tracking-[0.3em] text-background transition-all hover:gold-glow"
+            href="#online"
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-sm bg-gold px-6 py-4 font-display text-xs uppercase tracking-[0.3em] text-background transition-all hover:gold-glow sm:px-8 sm:text-sm"
           >
-            <span className="relative z-10">View Experience</span>
+            <span className="relative z-10">Book Online Consultation</span>
           </a>
           <a
-            href="#contact"
-            className="inline-flex items-center justify-center rounded-sm border border-gold/70 px-8 py-4 font-display text-sm uppercase tracking-[0.3em] text-gold transition-all hover:bg-gold/10 hover:gold-glow"
+            href="#experience"
+            className="inline-flex items-center justify-center rounded-sm border border-gold/70 px-6 py-4 font-display text-xs uppercase tracking-[0.3em] text-gold transition-all hover:bg-gold/10 hover:gold-glow sm:px-8 sm:text-sm"
           >
-            Book Consultation
+            View Experience
           </a>
         </motion.div>
 

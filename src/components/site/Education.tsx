@@ -32,8 +32,8 @@ function Seal() {
 
 export function Education() {
   return (
-    <section id="education" className="relative py-32 wood-panel">
-      <div className="mx-auto max-w-5xl px-6">
+    <section id="education" className="relative py-20 md:py-32 wood-panel">
+      <div className="mx-auto max-w-5xl px-5 sm:px-6">
         <SectionTitle eyebrow="Academic Pursuit" title="Education" />
 
         <div className="relative">

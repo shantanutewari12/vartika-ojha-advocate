@@ -3,8 +3,8 @@ import { SectionTitle, Ornament } from "./Ornament";
 
 export function Contact() {
   return (
-    <section id="contact" className="relative py-32 wood-panel">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="contact" className="relative py-20 md:py-32 wood-panel">
+      <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <SectionTitle
           eyebrow="Approach the Bench"
           title="Schedule a Consultation"
@@ -76,15 +76,9 @@ export function Contact() {
                 </li>
                 <li>
                   <p className="font-display text-xs uppercase tracking-[0.3em] text-gold">
-                    Chamber Hours
+                    Online Consultation
                   </p>
-                  <p className="mt-1 text-ivory">Monday — Saturday · 10:00 – 18:00</p>
-                </li>
-                <li>
-                  <p className="font-display text-xs uppercase tracking-[0.3em] text-gold">
-                    Practice
-                  </p>
-                  <p className="mt-1 text-ivory">Allahabad · Delhi NCR · Pan-India</p>
+                  <p className="mt-1 text-ivory">Available Pan-India via Video Call</p>
                 </li>
                 <li>
                   <p className="font-display text-xs uppercase tracking-[0.3em] text-gold">

@@ -14,8 +14,8 @@ const items = [
 
 export function Expertise() {
   return (
-    <section id="expertise" className="relative py-32 wood-panel">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="expertise" className="relative py-20 md:py-32 wood-panel">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6">
         <SectionTitle eyebrow="Domains of Practice" title="Legal Expertise" />
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
