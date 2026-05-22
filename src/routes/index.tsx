@@ -1,26 +1,59 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/site/Nav";
+import { Hero } from "@/components/site/Hero";
+import { About } from "@/components/site/About";
+import { Education } from "@/components/site/Education";
+import { Experience } from "@/components/site/Experience";
+import { Expertise } from "@/components/site/Expertise";
+import { Skills } from "@/components/site/Skills";
+import { Services } from "@/components/site/Services";
+import { Testimonials } from "@/components/site/Testimonials";
+import { Contact, Footer } from "@/components/site/Contact";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Vartika Ojha — Advocate & Legal Consultant" },
+      {
+        name: "description",
+        content:
+          "Chamber of Vartika Ojha — Advocate and Legal Consultant offering counsel in constitutional, corporate, criminal, competition, consumer and international trade law.",
+      },
+      { property: "og:title", content: "Vartika Ojha — Advocate & Legal Consultant" },
+      {
+        property: "og:description",
+        content:
+          "Premium legal counsel and advocacy across constitutional, corporate, criminal and trade law.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+    links: [
+      { rel: "canonical", href: "/" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="relative min-h-screen overflow-x-hidden bg-background text-foreground animate-book-open">
+      <Nav />
+      <main>
+        <Hero />
+        <About />
+        <Education />
+        <Experience />
+        <Expertise />
+        <Skills />
+        <Services />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
