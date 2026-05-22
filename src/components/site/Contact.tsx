@@ -267,7 +267,7 @@ export function Contact() {
                     LinkedIn
                   </p>
                   <a
-                    href="https://www.linkedin.com/in/vartika-ojha"
+                    href="https://www.linkedin.com/in/vartika-ojha-8753941b2/"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-1 inline-block text-ivory transition-colors hover:text-gold"
