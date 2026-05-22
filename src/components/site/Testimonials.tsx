@@ -18,7 +18,7 @@ const items = [
     quote:
       "Her grasp of consumer protection law and her ability to translate complexity into clarity is remarkable.",
     name: "Mentor",
-    org: "NCDRC Chambers",
+    org: "NCDRC",
   },
 ];
 
@@ -38,11 +38,15 @@ export function Testimonials() {
               transition={{ duration: 0.8, delay: i * 0.12 }}
               className="leather-card relative rounded-sm p-8 hover-gold-glow"
             >
-              <svg viewBox="0 0 24 24" className="absolute right-6 top-6 h-8 w-8 text-gold/30" fill="currentColor">
+              <svg
+                viewBox="0 0 24 24"
+                className="absolute right-6 top-6 h-8 w-8 text-gold/30"
+                fill="currentColor"
+              >
                 <path d="M7 7h4v4H7c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7zm10 0h4v4h-4c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7z" />
               </svg>
               <blockquote className="font-display text-lg italic leading-relaxed text-ivory">
-                “{it.quote}”
+                "{it.quote}"
               </blockquote>
               <div className="mt-6 h-px w-12 bg-gold/60" />
               <figcaption className="mt-4">

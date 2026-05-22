@@ -27,14 +27,17 @@ const features = [
     d: "Receive drafts, notes, and legal opinions delivered straight to your inbox.",
     i: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
-        <path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" strokeLinejoin="round" />
+        <path
+          d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+          strokeLinejoin="round"
+        />
         <path d="M14 3v6h6M9 14h6M9 18h4" strokeLinecap="round" />
       </svg>
     ),
   },
   {
     t: "Pan-India Reach",
-    d: "Counsel rendered across every state — no travel, no waiting, no chamber visits required.",
+    d: "Counsel rendered across every state — no travel, no waiting, no office visits required.",
     i: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
         <circle cx="12" cy="12" r="9" />
@@ -66,9 +69,9 @@ export function OnlineConsultation() {
             <span className="italic text-ivory">Consultation</span>
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-            Seasoned counsel — now accessible from the comfort of your home or office.
-            Schedule a confidential video consultation with Advocate Vartika Ojha and
-            receive considered legal advice without ever leaving your desk.
+            Seasoned counsel — now accessible from the comfort of your home or office. Schedule a
+            confidential video consultation with Advocate Vartika Ojha and receive considered legal
+            advice without ever leaving your desk.
           </p>
           <Ornament />
         </div>
@@ -112,8 +115,8 @@ export function OnlineConsultation() {
                 <span className="text-gradient-gold italic">a click away.</span>
               </h3>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-                Reserve a 30-minute online session to discuss your matter in
-                confidence. Convenient, secure, and tailored to your schedule.
+                Reserve a 30-minute online session to discuss your matter in confidence.
+                Convenient, secure, and tailored to your schedule.
               </p>
               <ul className="mt-6 grid grid-cols-1 gap-2 text-sm text-ivory sm:grid-cols-2">
                 {[

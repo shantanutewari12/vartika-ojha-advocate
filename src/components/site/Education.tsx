@@ -3,10 +3,10 @@ import { SectionTitle } from "./Ornament";
 
 const items = [
   {
-    period: "2024 — Present",
+    period: "2024 — 2026",
     title: "Master of Laws (LL.M.)",
     institution: "University of Allahabad",
-    note: "Advanced specialization in jurisprudence and contemporary legal frameworks.",
+    note: "Specialization in Intellectual Property Rights — patents, trademarks, copyrights, and contemporary IP frameworks.",
   },
   {
     period: "2019 — 2024",

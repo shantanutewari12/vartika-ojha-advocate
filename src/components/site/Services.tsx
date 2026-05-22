@@ -2,19 +2,43 @@ import { motion } from "framer-motion";
 import { SectionTitle } from "./Ornament";
 
 const services = [
-  { t: "Legal Consultation", d: "One-to-one advisory on matters civil, criminal, and corporate.", n: "I" },
-  { t: "Contract Drafting", d: "Precise drafting of agreements, MoUs, and commercial contracts.", n: "II" },
-  { t: "Litigation Support", d: "Brief preparation, pleadings, and courtroom strategy.", n: "III" },
-  { t: "Legal Research", d: "Doctrinal and empirical research with citation analysis.", n: "IV" },
-  { t: "Consumer Dispute Assistance", d: "Representation before redressal commissions.", n: "V" },
-  { t: "Policy & Compliance Research", d: "Regulatory mapping for corporates and trade entities.", n: "VI" },
+  {
+    t: "Legal Consultation",
+    d: "One-to-one advisory on matters civil, criminal, and corporate.",
+    n: "I",
+  },
+  {
+    t: "Contract Drafting",
+    d: "Precise drafting of agreements, MoUs, and commercial contracts.",
+    n: "II",
+  },
+  {
+    t: "Litigation Support",
+    d: "Brief preparation, pleadings, and courtroom strategy.",
+    n: "III",
+  },
+  {
+    t: "Legal Research",
+    d: "Doctrinal and empirical research with citation analysis.",
+    n: "IV",
+  },
+  {
+    t: "Consumer Dispute Assistance",
+    d: "Representation before redressal commissions.",
+    n: "V",
+  },
+  {
+    t: "Policy & Compliance Research",
+    d: "Regulatory mapping for corporates and trade entities.",
+    n: "VI",
+  },
 ];
 
 export function Services() {
   return (
     <section id="services" className="relative py-20 md:py-32 wood-panel">
       <div className="mx-auto max-w-7xl px-5 sm:px-6">
-        <SectionTitle eyebrow="Services Rendered" title="The Chamber Offers" />
+        <SectionTitle eyebrow="Services Rendered" title="The Advocate Offers" />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (

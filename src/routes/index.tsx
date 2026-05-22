@@ -10,6 +10,7 @@ import { Services } from "@/components/site/Services";
 import { Testimonials } from "@/components/site/Testimonials";
 import { OnlineConsultation } from "@/components/site/OnlineConsultation";
 import { Contact, Footer } from "@/components/site/Contact";
+import { ScrollToTop } from "@/components/site/ScrollToTop";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -18,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Chamber of Vartika Ojha — Advocate and Legal Consultant offering counsel in constitutional, corporate, criminal, competition, consumer and international trade law.",
+          "Office of Vartika Ojha — Advocate and Legal Consultant offering counsel in constitutional, corporate, criminal, competition, consumer and international trade law.",
       },
       { property: "og:title", content: "Vartika Ojha — Advocate & Legal Consultant" },
       {
@@ -56,6 +57,7 @@ function Index() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
