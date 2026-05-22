@@ -4,11 +4,11 @@ import frame from "@/assets/about-frame.jpg";
 
 export function About() {
   return (
-    <section id="about" className="relative py-32">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="about" className="relative py-20 md:py-32">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6">
         <SectionTitle eyebrow="An Introduction" title="About the Advocate" />
 
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="grid items-center gap-10 md:gap-16 lg:grid-cols-2">
           {/* Frame */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
