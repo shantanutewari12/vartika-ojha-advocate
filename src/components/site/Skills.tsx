@@ -67,9 +67,9 @@ export function Skills() {
 
             <div className="leather-card mt-4 w-full rounded-sm p-6">
               <p className="font-display text-xs uppercase tracking-[0.4em] text-gold">Languages</p>
-              <p className="mt-3 font-display text-2xl text-ivory">English · Hindi · Sanskrit</p>
+              <p className="mt-3 font-display text-2xl text-ivory">English · Hindi</p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Fluent professional command for drafting, advocacy, and translation of legal texts.
+                Fluent professional command for drafting, advocacy, and client counsel.
               </p>
             </div>
           </div>
