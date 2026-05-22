@@ -7,7 +7,7 @@ const cases = [
   { org: "Competition Commission of India", role: "Legal Intern", file: "VO/2023-014" },
   {
     org: "National Consumer Disputes Redressal Commission",
-    role: "Research Associate",
+    role: "Legal Intern",
     file: "VO/2023-009",
   },
   { org: "Centre for Trade and Investment Law", role: "Research Intern", file: "VO/2022-022" },

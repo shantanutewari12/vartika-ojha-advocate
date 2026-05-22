@@ -267,8 +267,8 @@ vercel --prod
 |---|---|
 | Yayskool | Law Faculty |
 | Competition Commission of India | Legal Intern |
-| National Consumer Disputes Redressal Commission | Research Associate |
-| Centre for Trade and Investment Law | Research Intern |
+| National Consumer Disputes Redressal Commission | Legal Intern |
+| Centre for Trade and Investment Law | Legal Intern |
 | Ministry of Law and Justice | Legal Intern |
 | BPTP Ltd. | Corporate Legal Intern |
 
