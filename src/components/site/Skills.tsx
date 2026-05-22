@@ -19,8 +19,8 @@ const badges = [
 
 export function Skills() {
   return (
-    <section id="skills" className="relative py-32">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="skills" className="relative py-20 md:py-32">
+      <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <SectionTitle eyebrow="The Counsel's Craft" title="Skills & Distinctions" />
 
         <div className="grid gap-12 lg:grid-cols-2">

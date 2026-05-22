@@ -3,8 +3,8 @@ import { SectionTitle, Ornament } from "./Ornament";
 
 export function Contact() {
   return (
-    <section id="contact" className="relative py-32 wood-panel">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="contact" className="relative py-20 md:py-32 wood-panel">
+      <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <SectionTitle
           eyebrow="Approach the Bench"
           title="Schedule a Consultation"
