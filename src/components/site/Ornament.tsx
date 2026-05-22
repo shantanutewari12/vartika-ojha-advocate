@@ -40,7 +40,7 @@ export function SectionTitle({
           {eyebrow}
         </p>
       )}
-      <h2 className="font-display text-4xl font-light text-ivory md:text-6xl">
+      <h2 className="font-display text-3xl font-light leading-tight text-ivory sm:text-4xl md:text-6xl">
         <span className="text-gradient-gold">{title}</span>
       </h2>
       {subtitle && (
