@@ -8,7 +8,9 @@ A premium, fully responsive personal website for **Vartika Ojha**, Advocate & Le
 
 ## 🏛️ Live Site
 
-Deployed on **Cloudflare Workers / Pages** via GitHub integration.
+Live site: [vartika-ojha-advocate-portfolio.vercel.app](https://vartika-ojha-advocate-portfolio.vercel.app/)
+
+Deployed via Vercel integration.
 
 ---
 
@@ -116,9 +118,7 @@ Deployed on **Cloudflare Workers / Pages** via GitHub integration.
 ### Deployment & Infrastructure
 | Technology | Purpose |
 |-----------|---------|
-| **Cloudflare Workers** | Edge runtime for SSR |
-| **Wrangler** | Cloudflare CLI for deployment |
-| **`@cloudflare/vite-plugin`** | Cloudflare adapter for Vite build |
+| **Vercel** | Hosting platform for frontend and serverless APIs |
 | **GitHub** | Source control & CI/CD integration |
 
 ### Developer Experience
@@ -161,10 +161,9 @@ vartika-ojha-advocate/
 │   │   └── index.tsx            # Home page route (assembles all sections)
 │   ├── styles.css               # Global CSS, Tailwind config, design tokens
 │   ├── router.tsx               # TanStack Router configuration
-│   ├── server.ts                # Cloudflare Workers SSR entry point
+│   ├── server.ts                # Server entry point
 │   └── start.ts                 # TanStack Start entry
-├── wrangler.jsonc               # Cloudflare Workers configuration
-├── vite.config.ts               # Vite + TanStack Start + Cloudflare build config
+├── vite.config.ts               # Vite + TanStack Start config
 ├── components.json              # shadcn/ui component registry config
 ├── tsconfig.json                # TypeScript configuration
 └── package.json                 # Dependencies & scripts
@@ -231,23 +230,21 @@ npm run format    # Prettier format
 
 ---
 
-## ☁️ Deployment
-
-### Cloudflare Pages (Recommended)
-1. Go to [dash.cloudflare.com](https://dash.cloudflare.com) → Workers & Pages → Create
-2. Connect your GitHub repository
-3. Set **Build command**: `npm run build`
-4. Set **Output directory**: `dist`
-5. Deploy — Cloudflare handles the rest
+## 🚀 Deployment
 
 ### Vercel
+To deploy the application on Vercel:
+1. Connect your GitHub repository to Vercel.
+2. Vercel will automatically detect the settings.
+3. Configure the build command as `npm run build` and output directory as `dist` if prompted.
+4. Deploy.
+
+Alternatively, deploy via CLI:
 ```bash
 npm install -g vercel
 vercel login
 vercel --prod
 ```
-
-> **Note:** This project uses the Cloudflare Workers adapter natively. For Vercel, build output compatibility may require adapter adjustments.
 
 ---
 
